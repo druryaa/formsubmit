@@ -173,7 +173,12 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     <h3>Request a Consult</h3>
 
                     <form action="https://formsubmit.co/info@druryfamilylaw.ca" method="POST">
+                <!-- Honeypot-->
+                            <input type="text" name="_honey" style="display: nane;">
 
+                            <!-- Disable Captcha-->
+
+                            <input type="hidden" name="_captcha" value="false">
                         <div class="formBox">
                             
                             <div class="row50">
